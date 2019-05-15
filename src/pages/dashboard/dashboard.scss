@@ -1,3 +1,31 @@
 page-dashboard {
-
+    ion-title {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0 90px 1px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+      }
+      .detailsCard{
+          height: 120px;
+          border-radius: 10px;
+      }
+      .nannyImage{
+            height: 50px;
+            width: 50px;
+            border-radius: 35px;
+            background-color:blue;
+            margin: 10px;
+      }
+      #nannyName{
+          font-size: 18px;
+      }
+      #nannyDetails{
+          font-size: 12px;
+      }
+      .nannyCard{
+          border-radius: 10px;
+      }
 }
