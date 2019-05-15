@@ -1,3 +1,14 @@
 page-welcome {
-
+    .swiper-pagination-bullet {
+        background: #38D39F;
+        opacity: 0.5;
+      }
+    
+    .swiper-pagination-bullet-active {
+        opacity: 1;
+        background: #38D39F;
+      }
+      .scroll-content {
+        padding-bottom: 0 !important;
+    }
 }
