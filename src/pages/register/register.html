@@ -6,10 +6,43 @@
 -->
 <ion-header>
   <ion-navbar>
-    <ion-title>register</ion-title>
+    <ion-title>Register Account</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content>
+  <div id="container">
+    <ion-item id="rounded">
+      <ion-input placeholder="First name..." [(ngModel)]='email' type="text"></ion-input>
+    </ion-item>
+    <ion-item id="rounded">
+      <ion-input placeholder="Last name..." [(ngModel)]='email' type="text"></ion-input>
+    </ion-item>
+    <ion-item id="rounded">
+      <ion-input placeholder="Email address..." [(ngModel)]='email' type="email"></ion-input>
+    </ion-item>
+    <ion-item id="rounded">
+      <ion-input placeholder="Phone number..." [(ngModel)]='email' type="number"></ion-input>
+    </ion-item>
+    <ion-item id="rounded">
+      <ion-input placeholder="ID number..." [(ngModel)]='email' type="number"></ion-input>
+    </ion-item>
+    <ion-item id="rounded">
+      <ion-input placeholder="Password..." [(ngModel)]='password' type="password"></ion-input>
+    </ion-item>
+    <ion-item id="rounded">
+      <ion-input placeholder="Confirm password..." [(ngModel)]='password' type="password"></ion-input>
+    </ion-item>
 
+    <div class="row">
+      <div class="col"></div>
+      <div class="col">
+        <button ion-button color="secondary" id="registerBtn">Register</button>
+        
+      </div>
+      <div class="col"></div>
+    </div>
+    
+      <a id="signIntxt" (click)="signInClicked()"><p>Sign in</p></a> 
+  </div>
 </ion-content>

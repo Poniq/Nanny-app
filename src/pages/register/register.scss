@@ -1,3 +1,19 @@
 page-register {
-
+    ion-title {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0 90px 1px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+      }
+      #registerBtn{
+          margin-top: 20px;
+          width: 150px;
+          height: 35px;
+      }
+      #signIntxt{
+          text-align: center;
+      }
 }
